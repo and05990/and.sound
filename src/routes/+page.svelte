@@ -1,2 +1,13 @@
-<h1>Welcome to SvelteKit</h1>
-<p>Visit <a href="https://kit.svelte.dev">kit.svelte.dev</a> to read the documentation</p>
+<script>
+    function login() {
+        
+    }
+
+    function signup() {
+        
+    }
+</script>
+<h1>And.sound</h1>
+<h2>The passion of Music</h2>
+<button on:click={login} >Login</button>
+<button on:click={signup} >Sign up</button>
